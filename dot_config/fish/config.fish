@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     atuin init fish | source
-    export NNN_OPTS="dEr"
+    export NNN_OPTS="dE"
     export NNN_PLUG='j:!jless "$nnn"*;l:!lazygit*'
     export NNN_BMS="a:$HOME/awv;o:$HOME/ou;m:$HOME/.config/nnn/mounts;n:$HOME/nobackup;h:$HOME;g:$HOME/github;c:$HOME/.config;l:$HOME/.local"
     export JAVA_HOME="/usr/local/sdkman/candidates/java/current"
