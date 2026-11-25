@@ -1,0 +1,4 @@
+Host gitlab.collab.mow.vlaanderen.be
+  User git
+  IdentityFile ~/.ssh/id_ed25519_awv-gitlab-authentication-and-signing
+  IdentitiesOnly yes
